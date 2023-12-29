@@ -14,7 +14,7 @@ function Header() {
         </p>
       </Link>
 
-      <ul className="flex gap-[17px] md:gap-[50px] mr-4 ">
+      <ul className="flex gap-[13px] sm:gap-[17px] md:gap-[50px] mr-4 ">
         <li>
           <Link href="/">
             <p className="text-black font-roboto uppercase dark:text-white ">Home</p>

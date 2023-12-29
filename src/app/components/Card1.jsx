@@ -6,16 +6,17 @@ import { FaTwitter } from "react-icons/fa";
 
 function MyComponent() {
   return (
-    <div className="flex mt-3 gap-3">
+    <div className="flex flex-wrap mt-3 gap-3">
       {MemberList.map((member, index) => (
         <div key={index}>
           
-          <div className="max-w-sm rounded overflow-hidden shadow-lg h-[600px]">
+          <div className="max-w-sm rounded overflow-hidden shadow-lg h-[600px] w-[270px]">
             <Image
               src={member.picture.src}
               alt={member.name}
               width={250}
               height={250}
+              className="mx-auto"
             />
             <div className="px-6 py-4">
               <div className="font-bold text-xl mb-2"><h2>{member.name}</h2></div>

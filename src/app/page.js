@@ -26,7 +26,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex bg-white justify-center align-item gap-5 dark:bg-[var(--darkbg-primary)]">
+      <div className="flex bg-white justify-center align-item gap-5 dark:bg-[var(--darkbg-primary)] mb-3">
         <Image src={Valorant} width={45} />
         <Image src={CSGO} width={45} />
         <Image src={Apex} width={45} />
