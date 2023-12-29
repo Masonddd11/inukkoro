@@ -20,7 +20,9 @@ export default function Home() {
             <p className="py-6 text-black text-[1.2rem] dark:text-white">
               Inukkoroは、日本を代表する犬たちによるヴァロラントプロフェッショナルチームです。彼らは世界中で初めての動物E-Sportsチームとして知られています。Inukkoroは、そのユニークなメンバーシップと卓越したゲームプレイで注目されています。
             </p>
-            <button className="btn btn-primary ">もっと見る</button>
+            <a href="/about"> <button className="btn btn-primary ">
+              もっと見る</button></a>
+           
           </div>
         </div>
       </div>
