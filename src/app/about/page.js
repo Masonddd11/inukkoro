@@ -7,7 +7,7 @@ function about() {
   return (
     <div>
       <div>
-        <div className="diff aspect-[16/9] h-min-screen">
+        <div className="hidden md:diff md:aspect-[16/9] md:h-min-screen">
           <div className="diff-item-1">
             <div className="bg-primary text-primary-content text-9xl font-black grid place-content-center">
               INUKKORO
