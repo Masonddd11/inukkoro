@@ -22,7 +22,7 @@ function about() {
         </div>
       </div>
       <div className="">
-        <div className="min-w-full bg-white min-h-screen p-[50px] md:p-[100px] border-white dark:bg-[var(--dark-primary)]">
+        <div className="min-w-full bg-white min-h-screen p-[30px] md:p-[100px] border-white dark:bg-[var(--dark-primary)]">
           <div className="md:hero-content   bg-white text-black dark:bg-[var(--dark-primary)] dark:text-white">
             <h1 className="text-4xl font-bold font-roboto">AIM WITH BARK</h1>
             <br />
