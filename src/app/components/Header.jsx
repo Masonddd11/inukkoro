@@ -6,7 +6,7 @@ import ThemeSwitcher from "./ThemeSwitcher";
 
 function Header() {
   return (
-    <div className="navbar flex justify-around bg-white border-b-[2px] border-slate-600 dark:bg-gray-900">
+    <div className="navbar sticky top-0 flex justify-around z-50 bg-slate-50 border-b-[2px] border-slate-600 dark:bg-gray-900">
       <Link href="/" className="flex flex-col justify-center items-center">
         <Image src={Icon} className=" ml-5 mt-2 w-[70px] md:w-[100px]" />
         <p className="text-black text-[1rem] md:text-[1.25rem] font-bold ml-[30px] font-roboto dark:text-white">
